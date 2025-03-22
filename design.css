@@ -108,6 +108,8 @@ nav .right a:hover span {
 
 .hero-section .headshot img {
     width: 350px;
+    height: 500px;
+    /*padding-right: 100px;*/
     border-radius: 50%;
 }
 
@@ -314,4 +316,24 @@ nav .right a:hover span {
         text-underline-offset: 1rem;
         text-decoration-color: rgb(181, 181, 181);
     }
+
 }
+.home a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff; /* Button color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .home a span {
+    margin-left: 8px; /* Add spacing between icon and text */
+  }
